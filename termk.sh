@@ -1,4 +1,11 @@
 #!/bin/sh
+#------------------------------------------#
+#	Created by: Maik Alberto	                #
+#	maik.alberto@hotmail.com	                #
+#	github.com/m41k	                         #
+#------------------------------------------#
+# API shell - TERMK - Instant Linux access #
+#------------------------------------------#
 clear
 SERVER="https://raw.githubusercontent.com/m41k/termk/master/server"
 case $1 in
