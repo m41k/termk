@@ -5,7 +5,7 @@ case $1 in
  create | *)
    ID=$(wget -qO- $(wget -qO- $SERVER) | sed '/^$/d')
    wget -qO- $(wget -qO- $SERVER)/?$ID | sed '/^$/d'
-   echo -n "Enter captcha: "
+   echo -n "Repeat the characters: "
    read DIG
    clear
    wget -qO- $(wget -qO- $SERVER)/?$ID:$DIG | sed '/^$/d'
