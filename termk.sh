@@ -2,7 +2,7 @@
 clear
 SERVER="https://raw.githubusercontent.com/m41k/termk/master/server"
 case $1 in
- create)
+ create | *)
    ID=$(wget -qO- $(wget -qO- $SERVER) | sed '/^$/d')
    wget -qO- $(wget -qO- $SERVER)/?$ID | sed '/^$/d'
    echo -n "Enter captcha: "
