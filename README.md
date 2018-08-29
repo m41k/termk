@@ -3,7 +3,7 @@ Instant linux access.
 
 - Sobre:
 
-É um projeto para disponibilizar acesso Linux de forma instânea e simplificada.
+É um projeto para disponibilizar acesso Linux de forma instantânea e simplificada.
 
 O projeto momentaneamente* está disponivél no endereço http://18.217.245.220/termk, também é possível fazer a criação na linha de comando através do script disponibilizado(https://github.com/m41k/termk/blob/master/termk.sh).
 
