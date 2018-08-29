@@ -17,4 +17,4 @@ Através do seu cliente SSH de prefêrncia informe os dados fornecidos para aces
 
 Agora você está conectado e pronto para utilizar, atualmente está sendo uilizado como padrão o Ubuntu e a saída está direcionada para rede TOR.
 
-Ao fim do tempo, a máquina com todo seu conteúdo é destruída.
+Ao fim, a instância criada e todo seu conteúdo será destruído.
