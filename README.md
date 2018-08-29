@@ -11,8 +11,10 @@ O projeto momentaneamente* está disponivél no endereço http://18.217.245.220/
 
 - Utilizando
 
-Basta acessar o endereço atual do projeto, inserir o captcha (medida adotada para não inundar o servidor limitado atual do projeto), para gerar os dados para conexão.
+Basta acessar o endereço atual do projeto(http://18.217.245.220/termk), inserir o captcha (medida adotada para não inundar o servidor limitado atual do projeto), para gerar os dados para conexão.
 
 Através do seu cliente SSH de prefêrncia informe os dados fornecidos para acesso.
 
 Agora você está conectado e pronto para utilizar, atualmente está sendo uilizado como padrão o Ubuntu e a saída está direcionada para rede TOR.
+
+Ao fim do tempo, a máquina com todo seu conteúdo é destruída.
