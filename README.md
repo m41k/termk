@@ -22,3 +22,6 @@ Ao fim, a instância criada e todo seu conteúdo será destruído.
 - Screenshoot
 
 ![alt text](https://raw.githubusercontent.com/m41k/termk/master/screenshoot/termkweb1.png)
+![alt text](https://raw.githubusercontent.com/m41k/termk/master/screenshoot/termkweb2.png)
+![alt text](https://raw.githubusercontent.com/m41k/termk/master/screenshoot/termkcli1.png)
+![alt text](https://raw.githubusercontent.com/m41k/termk/master/screenshoot/termkcli2.png)
