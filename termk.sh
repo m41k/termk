@@ -9,10 +9,10 @@
 clear
 SERVER="https://raw.githubusercontent.com/m41k/termk/master/server"
 case $1 in
- list)
+ list | -l)
    wget -qO- $(wget -qO- $SERVER)/?$1 | sed '/^$/d'
  ;;
- create)
+ create | -c)
    ID=$(wget -qO- $(wget -qO- $SERVER) | sed '/^$/d')
    wget -qO- $(wget -qO- $SERVER)/?$ID | sed '/^$/d'
    echo -n "Repeat the characters: "
@@ -20,4 +20,8 @@ case $1 in
    clear
    wget -qO- $(wget -qO- $SERVER)/?$ID:$DIG@$2 | sed '/^$/d'
  ;;
+ help | -h | *)
+   echo "Termk:"
+   echo "Create usage: ./$0 create [DISTRO]"
+   echo "List Distros: ./$0 list"
 esac
