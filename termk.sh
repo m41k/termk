@@ -22,6 +22,6 @@ case $1 in
  ;;
  help | -h | *)
    echo "Termk:"
-   echo "Create usage: ./$0 create [DISTRO]"
-   echo "List Distros: ./$0 list"
+   echo "Create usage: $0 create [DISTRO]"
+   echo "List Distros: $0 list"
 esac
