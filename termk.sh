@@ -13,6 +13,10 @@ case $1 in
    wget -qO- $(wget -qO- $SERVER)/?$1 | sed '/^$/d'
  ;;
  create | -c)
+   if [ $2 -z ]; then
+    echo "Usage: $0 create [DISTRO]"
+    exit 1
+   fi
    ID=$(wget -qO- $(wget -qO- $SERVER) | sed '/^$/d')
    wget -qO- $(wget -qO- $SERVER)/?$ID | sed '/^$/d'
    echo -n "Repeat the characters: "
