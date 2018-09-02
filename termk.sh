@@ -13,7 +13,7 @@ case $1 in
    wget -qO- $(wget -qO- $SERVER)/?$1 | sed '/^$/d'
  ;;
  create | -c)
-   if [ $2 -z ]; then
+   if [ -z $2 ]; then
     echo "Usage: $0 create [DISTRO]"
     exit 1
    fi
