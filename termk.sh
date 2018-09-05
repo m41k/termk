@@ -10,7 +10,7 @@ clear
 SERVER="https://raw.githubusercontent.com/m41k/termk/master/server"
 case $1 in
  list | -l)
-   wget -qO- $(wget -qO- $SERVER)/?$1 | sed '/^$/d'
+   wget -qO- $(wget -qO- $SERVER)/?list | sed '/^$/d'
  ;;
  create | -c)
    if [ -z $2 ]; then
