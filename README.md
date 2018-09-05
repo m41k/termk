@@ -19,9 +19,12 @@ Agora você está conectado e pronto para utilizar, atualmente está sendo uiliz
 
 Ao fim, a instância criada e todo seu conteúdo será destruído.
 
-- Screenshoot
+- Termk WEB
 
 ![alt text](https://raw.githubusercontent.com/m41k/termk/master/screenshoot/termkweb1.png)
 ![alt text](https://raw.githubusercontent.com/m41k/termk/master/screenshoot/termkweb2.png)
+
+- Termk CLI
+
 ![alt text](https://raw.githubusercontent.com/m41k/termk/master/screenshoot/termkcli1.png)
 ![alt text](https://raw.githubusercontent.com/m41k/termk/master/screenshoot/termkcli2.png)
