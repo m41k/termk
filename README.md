@@ -24,9 +24,14 @@ Ao fim, a instância criada e todo seu conteúdo será destruído.
 Escolha a Distro disponível, insira a o captcha e entre.
 
 ![alt text](https://raw.githubusercontent.com/m41k/termk/master/screenshoot/termkweb1.png)
+
+Utilize os dados no seu cliente de ssh ou utilize a opção web.
 ![alt text](https://raw.githubusercontent.com/m41k/termk/master/screenshoot/termkweb2.png)
 
 - Termk CLI
 
+./termk.sh list - Para listar as Distros disponíveis
+
+./termk.sh create [distro] - Para criar instância.
 ![alt text](https://raw.githubusercontent.com/m41k/termk/master/screenshoot/termkcli1.png)
 ![alt text](https://raw.githubusercontent.com/m41k/termk/master/screenshoot/termkcli2.png)
