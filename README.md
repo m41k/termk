@@ -26,6 +26,7 @@ Escolha a Distro disponível, insira a o captcha e entre.
 ![alt text](https://raw.githubusercontent.com/m41k/termk/master/screenshoot/termkweb1.png)
 
 Utilize os dados no seu cliente de ssh ou utilize a opção web.
+
 ![alt text](https://raw.githubusercontent.com/m41k/termk/master/screenshoot/termkweb2.png)
 
 - Termk CLI
