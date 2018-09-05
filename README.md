@@ -21,6 +21,8 @@ Ao fim, a instância criada e todo seu conteúdo será destruído.
 
 - Termk WEB
 
+Escolha a Distro disponível, insira a o captcha e entre.
+
 ![alt text](https://raw.githubusercontent.com/m41k/termk/master/screenshoot/termkweb1.png)
 ![alt text](https://raw.githubusercontent.com/m41k/termk/master/screenshoot/termkweb2.png)
 
